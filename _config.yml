@@ -29,7 +29,7 @@ url: "https://hellebusch.io" # the base hostname & protocol for your site, e.g. 
 github_username:  sahellebusch
 
 # Build settings
-theme: jekyll-theme-minimal
+theme: minima
 plugins:
   - jekyll-feed
 
