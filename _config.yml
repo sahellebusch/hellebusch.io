@@ -8,7 +8,7 @@
 #   title: ':title - page :num of :max'
 #   limit: 0
 #   sort_field: 'date'
-#   sort_reverse: true
+#   sort_reverse: truec
 
 email: sahellebusch@gmail.com
 url: 'https://hellebusch.io'
@@ -25,7 +25,7 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title: 'hellebusch.io'
-description: 'An engineers ramblings. Mostly for his own posterity.'
+description: "A software engineer's ramblings."
 author: 'Sean Hellebusch'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
