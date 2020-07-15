@@ -2,7 +2,7 @@
 layout: post
 author: Sean Hellebusch
 title: "Dependency Injection > Proxy Injection"
-categories: [journal]
+categories: [tech]
 tags: [opinion,tech]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 author: Sean Hellebusch
 title: Environment Variable Validation
-categories: [journal]
+categories: [tech]
 tags: [opinion,tech]
 ---
 

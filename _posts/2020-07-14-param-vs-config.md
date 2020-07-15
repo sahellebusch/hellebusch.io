@@ -2,8 +2,8 @@
 layout: post
 author: Sean Hellebusch
 title: Service Configuration vs. Paramaterization
-categories: [journal]
-tags: [tech]
+categories: [tech]
+tags: [tech,service]
 ---
 
 ### An Easy Mistake To Make

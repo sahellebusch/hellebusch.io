@@ -2,7 +2,7 @@
 layout: post
 author: Sean Hellebusch
 title: About the Author
-categories: [journal]
+categories: [tech]
 tags: [about]
 ---
 
