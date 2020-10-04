@@ -8,15 +8,15 @@ tags: [tech,service]
 
 ### An Easy Mistake To Make
 
-There is a difference between servince configuration and paramaterization that is often ignored or goes unnoticed, which ultimately leads two a conflation of the two. When your service configuration is stored in a format like JSON or YAML, this often means that the tructure becomes deeply nested and untangling the mess is an cumbersome, and expensive, task. That's why I think it's important to understand the difference between service configuration and paramaterization.
+There is a difference between servince configuration and paramaterization that is often ignored or goes unnoticed, which ultimately leads to a conflation of the two. When your service configuration is stored in a format like JSON or YAML, this often results in a deeply nested structure and untangling the mess is a cumbersome, expensive task. It's important to understand the differences between service configuration and paramaterization in order to recognize and prevent such issues
 
 ### The Difference
 
-A service configuration is typically a specification that defines how your service is _arranged_. Some typical examples that come to mind are database, logging and cache configurations. In other words, the configuration does not drive expected outcomes. You should be able to theoretically change the configuration, but given the same inputs (for example, if two databases had the same data), then the outcome should not change. Parameterization, on the other hand, _does_ drive expected outcomes.  It's not all that common for services to have paramaterizations, however it's likely most software developers will encounter them at some point of their careers.
+A service configuration is typically a specification that defines how your service is _arranged_. Some typical examples that come to mind are database, logging and cache configurations. In other words, the configuration does not drive expected outcomes. You should be able to theoretically change the configuration, but given the same inputs (for example, if two databases had the same data), then the outcome should not change. Parameterization, on the other hand, _does_ drive expected outcomes.  It's not all that common for services to have paramaterizations, however it is likely most software developers will encounter them at some point in their careers.
 
 ### Example
 
-I once was the lead for a data pipeline project. We followed strict SOC II guidelines and therefore had to be very careful when it came to our governance engine. That engine was a process that consumed some structured parameterizations as a string in the environment, which then drove how we scrubbed the data.  Here's a contrived, but siccunct, example of how what I mean.
+I once was the lead for a data pipeline project which adhered to strict SOC II guidelines resulting in a very complex governance engine. That engine was a process that consumed some structured parameterizations as a string in the environment, which then drove how we scrubbed the data.  Here's a contrived, but succint, example what I mean.
 
 ```javascript
 const filtersParams = JSON.parse(process.argv[2]);
